@@ -1,20 +1,38 @@
-
-
-
-.header{
-   
-    display:flex;
-    justify-content: space-between;
-    background-color: aqua;
-    margin: 0px 30px;
-    padding: 20px;
-    
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(255, 144, 14, 0.1);
 }
-.header-div-2 ul{
+
+.header {
+    background-color: burlywood;
+    height: 40px;
+    padding: 15px;
+
+}
+
+.header-nav {
     display: flex;
-    margin-top: 20px;
-   
+    justify-content: space-between;
+
 }
+.header-title{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.header-item span{
+    font-size: larger;
+    margin-left: 20px;
+    font-weight: 600px;
+
+}
+.header-item span a{
+    text-decoration: none;
+
+}
+
+/*
+
 li{
     text-decoration-line: none;
     padding: 0px 20px;
@@ -49,3 +67,4 @@ li{
     grid-template-columns: repeat(4,1fr);
 }
 
+*/
