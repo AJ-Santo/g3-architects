@@ -1,0 +1,29 @@
+
+
+
+.header{
+   
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin: 0px 30px;
+    padding: 20px;
+    
+}
+.header-div-2 ul{
+    display: flex;
+    margin-top: 20px;
+   
+}
+li{
+    text-decoration-line: none;
+    padding: 0px 20px;
+}
+
+.section-1{
+    background-color: rgb(232, 220, 245);
+    width: 500px;
+    height: 300px;
+
+    
+}
