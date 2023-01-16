@@ -7,7 +7,8 @@ body {
 
 /* header section*/
 .header {
-    background-color: burlywood;
+    background-color: antiquewhite;
+    border-radius: 5%;
     height: 40px;
     padding: 15px;
 
@@ -46,12 +47,12 @@ body {
     margin-bottom: 5%;
 }
 
-.f-sec-title {
+.f-sec-title, .sec3div-title, .sec4div-title {
     font-size: xx-large;
     font-weight: bolder;
 }
 
-.f-sec-p {
+.f-sec-p, .sec3div-p, .sec4div-p {
     text-align: justify;
     color: #727272;
 }
@@ -82,27 +83,126 @@ body {
     width: 100%;
 }
 
+/* main section-3*/
 
-
-/*
-
-.sec3div-1{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
 .section-3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.section-4{
+.sec3div-1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.sec3div-2{
+    margin: 15%;
+    margin-top: 20%;
 
-.icons{
+}
+    /* main section-4*/
+
+.section-4{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.sec4-1div{
+    margin: 10%;
+    content: 100%;
+    margin-left: 10%;
+    
+    margin-top: -8%;
+}
+.sec4-1-1div{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.special-3{
+
+    font-size: large;
+    font-weight: bolder;
+    padding: 15px 15px 15px 0px;
+}
+.special-btn {
+    padding: 5%;
+    background-color: rgb(249, 118, 11);
+    border: none;
+    border-radius: 1em;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+.spa-btn-1{
+    font-size: xx-large;
 }
 
-*/
+.special-btn:hover {
+    padding: 5%;
+    background-color: rgb(13, 154, 214);
+    border: none;
+    border-radius: 1em;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+.fsec4-2div {
+    position: relative;
+}
+
+/* main section-5*/
+
+.section-5 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.icon {
+    border: 2px solid rgb(4, 0, 255);
+    height: 10rem;
+    width: 10rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+    transition: transform 2s;
+}
+
+.icon:hover {
+    transform: scale(1.5) rotate(20deg);
+    background-color: rgb(139, 201, 237);
+}
+
+    
+/* main section-6*/
+
+.sixth-6 {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.header-part {
+    text-align: center;
+}
+
+.sponspors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.header-part p{
+    color: gray;
+}
+
+footer {
+    background-color: #727272;
+    text-align: center;
+ 
+}
